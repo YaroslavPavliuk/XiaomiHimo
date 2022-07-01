@@ -408,3 +408,22 @@ body {
 .form__btn:hover{
     background-color: #FF4040;
 }
+
+.footer{
+    background-color: #131313;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__link{
+    color: #FFFFFF;
+    
+}
+
+.footer__contacts{
+    display: flex;
+    flex-direction: column;
+}
