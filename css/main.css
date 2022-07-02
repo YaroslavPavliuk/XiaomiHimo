@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 ul {
     margin: 0;
     padding: 0;
@@ -67,7 +68,7 @@ body {
 }
 
 .bike {
-    padding: 100px 0 150px;
+    padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -106,6 +107,7 @@ body {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1.1em;
+    transition: all .3s;
 }
 
 .bike__link:hover {
@@ -176,7 +178,8 @@ body {
 }
 
 .info {
-    margin-bottom: 150px;
+    padding-top: 150px;
+    margin-bottom: 50px;
 }
 
 .info__inner {
@@ -209,6 +212,7 @@ body {
 }
 
 .characteristics {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -403,6 +407,7 @@ body {
     line-height: 24px;
     letter-spacing: 1.1em;
     text-transform: uppercase;
+    transition: all .3s;
 }
 
 .form__btn:hover{
