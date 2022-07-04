@@ -596,4 +596,7 @@ body {
     .menu__link{
         font-size: 12px;
     }
+    .slider__img{
+        height: 90px;
+    }
 }
